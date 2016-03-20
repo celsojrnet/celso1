@@ -66,7 +66,7 @@
 		margin: 0 0 10px 0;
 		float: none;
 	}
-	#row2, #row3, #row4 {
+	#row2, #row3, #row4, #hrA, #line {
 		width: auto;
 		margin: right 0;
 		float: none;
@@ -114,7 +114,19 @@ section {
 	width: 100%;
 	height: 100%;
 }
+/*greeting time*/
+h3 {
+	font-size: 20px;
+	font-family: 'Italiana', serif;
+	text-align: center;
+	color: white;
+	margin-right: 44%;
+	margin-left: 45%;
+	border-style: inset;
+	border-width: thin;
+}
 
+/*title*/
 .name {
   color: gray;
   font-size: 94px;
@@ -178,13 +190,13 @@ a {
 .scroll-down {
 	margin-left: 50%;
   font-size: 40px;
-  padding-top: 7%;
+  padding-top: 5%;
 }
 .scroll-down a {
 	color: white;
 }
 .fa-angle-double-down:hover {
-	color: blue;
+	color: #347EDE;
   /*-webkit-transition: all 1.5s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;*/
@@ -295,10 +307,12 @@ background-color: #595A5A;
 	padding: 20%;
 	border-radius: 10px;
 }
+
 .fa-gear:before, .fa-cog:before {
     content: "\f013";
     color: #000000;
 }
+
 #one a {
 	color: white;
 }
@@ -318,53 +332,60 @@ background-color: #595A5A;
 	color: yellow;
 }
 
-/*section 4*/
-#row4 {
-display: block;
-height: 85%;
-margin: 0 auto;
-background-color: #94A2A2;
+/*testimonials*/
+#row3A {
+	display: block;
+	height: 85%;
+	margin: 0 auto;
+	background-color: white;
 }
-
-/*.contactMe {
+.testimonial {
 	font-size: 33px;
 	font-family: 'Italiana', serif;
 	color: black;
 	margin-left: 48%;
 	padding-top: 3%;
-	/*transform: skewY(-3.5deg);*/
-/*}*/
+	text-transform: uppercase;
+}
 
-/*#box3 {
-  width: 44%;
-  height:550px;
-  margin-top: 60px;
-  margin-left: 350px;
-  padding-top: 20px;
-  background-color: rgba(26, 26, 33, 0.04);
-	display: flex;
-}*/
-/*.chat {
-  width: 500px;
-  height: 150px;
-  margin-left: 25%;
-  border: 1px solid #dcdcdc;
-  padding: 15px;
-}*/
+/*section 4*/
+#row4 {
+display: block;
+height: 70%;
+margin: 0 auto;
+background-color: #94A2A2;
+}
 
 .chat {
   font-family: 'MyWebFont', Andale Mono;
   font-size: 40px;
   color: black;
   margin-left: 40%;
-	padding-top: 5%;
+	padding-top: 8%;
   text-transform: uppercase;
 }
 .fa-comments-o {
   color: #347EDE;
 }
+
+/*scroll up*/
+.scroll-up {
+	margin-left: 50%;
+  font-size: 50px;
+  padding-top: 7%;
+}
+.scroll-up a {
+	color: white;
+}
+.fa-angle-double-up:hover {
+	color: #347EDE;
+  /*-webkit-transition: all 1.5s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;*/
+}
+
 #hrA {
-  margin-top: 1400px;
+  margin-top: 136%;
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(234, 225, 225, 0.75), rgba(0, 0, 0, 0));
@@ -372,7 +393,8 @@ background-color: #94A2A2;
 
 #line {
   margin-left: 45%;
-  margin-top: 30px;
+  margin-top: 2%;
+	padding-bottom: 2%;
   font-size: 12px;
   font-family: 'MyWebFont', Avenir;
   color: rgb(150, 145, 145);
