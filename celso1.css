@@ -124,6 +124,8 @@ h3 {
 	margin-left: 45%;
 	border-style: inset;
 	border-width: thin;
+	padding-top: 0.20%;
+	padding-bottom: 0.25%;
 }
 
 /*title*/
@@ -239,7 +241,7 @@ margin: 0 auto;
 	max-width: 100%;
 	height: auto;
 	margin: 0 0 10px 0;
-	border-radius: 10px;
+	border-radius: 5px;
 	border-style: outset;
 
 }
@@ -305,7 +307,7 @@ background-color: #595A5A;
 .flexbox-container > div > #one, #two, #three {
 	border-style: outset;
 	padding: 20%;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .fa-gear:before, .fa-cog:before {
@@ -335,7 +337,7 @@ background-color: #595A5A;
 /*testimonials*/
 #row3A {
 	display: block;
-	height: 85%;
+	height: 90%;
 	margin: 0 auto;
 	background-color: white;
 }
@@ -347,11 +349,39 @@ background-color: #595A5A;
 	padding-top: 3%;
 	text-transform: uppercase;
 }
+.quote {
+	font-size: 33px;
+	font-family: 'Poiret One', cursive;
+	color: black;
+	margin-left: 18%;
+	margin-top: 5%;
+}
+.fa-users {
+  color: #347EDE;
+}
+.horizon-swiper {
+	margin-left: 30%;
+	margin-top: 4%;
+}
+.horizon-swiper > div {
+  position: absolute;
+  margin-top: 0;
+  height: 50%;
+}
+.horizon-swiper > div > img {
+	width: 640px;
+	height: 350px;
+	margin: 0 0 10px 0;
+	border-radius: 5px;
+	border-style: outset;
+
+}
+
 
 /*section 4*/
 #row4 {
 display: block;
-height: 70%;
+height: 65%;
 margin: 0 auto;
 background-color: #94A2A2;
 }
