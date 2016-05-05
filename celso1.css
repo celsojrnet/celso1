@@ -243,9 +243,10 @@ margin: 0 auto;
 	max-width: 100%;
 	height: auto;
 	margin: 0 0 10px 0;
-	border-radius: 5px;
-	border-style: outset;
-
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: gray;
 }
 .side {
 	font-family: 'Wire One', sans-serif;
