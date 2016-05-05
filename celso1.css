@@ -304,6 +304,7 @@ background-color: #595A5A;
 	color: white;
 	margin-left: 48%;
 	padding-top: 3%;
+	padding-bottom: 4%;
 }
 .flexbox-container {
 	display: -ms-flex;
@@ -321,9 +322,10 @@ background-color: #595A5A;
 	list-style: none;
 }
 .flexbox-container > div > #one, #two, #three {
-	border-style: outset;
-	padding: 20%;
-	border-radius: 5px;
+	border-top-style: solid;
+	border-top-width: 2px;
+	padding-top: 10%;
+	border-radius: 1px;
 }
 
 .fa-gear:before, .fa-cog:before {
@@ -335,6 +337,9 @@ background-color: #595A5A;
 	color: white;
 }
 #one > a:hover {
+	color: yellow;
+}
+#one > p > a:hover {
 	color: yellow;
 }
 #two a {
