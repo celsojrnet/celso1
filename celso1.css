@@ -395,8 +395,10 @@ background-color: #595A5A;
 	height: 350px;
 	margin: 0 0 10px 0;
 	border-radius: 5px;
-	border-style: outset;
-
+	/*border-style: outset;*/
+	border-style: solid;
+	border-width: 2px;
+	border-color: yellow;
 }
 
 
