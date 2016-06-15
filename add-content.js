@@ -25,7 +25,7 @@ setInterval(function() {
 $('.horizon-swiper > div:first')
 .slideToggle(2000)
 .next()
-.fadeIn(4000)
+.fadeIn(6000)
 .end()
 .appendTo('.horizon-swiper');
-},  6000);
+},  7000);
