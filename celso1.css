@@ -102,13 +102,14 @@ width: 100%;
 height: 100%;
 margin: 0 auto;
 }
+
 body {
 	width: 100%;
 	height: 100%;
 	margin: 0px auto;
 	background-color: black;
-
 }
+
 header {
 width: 100%;
 height: 100%;
@@ -246,7 +247,6 @@ margin: 0 auto;
   margin-top: 90px;
 	margin-left: 70px;
 	position: absolute;
-
 }
 .slideshow > div {
   position: absolute;
