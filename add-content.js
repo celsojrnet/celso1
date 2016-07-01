@@ -17,6 +17,7 @@ if (hourNow > 18) {
 document.write ('<h3>' + greeting + '</h3>');
 
 
+
 // <!-- slider show- testimonials -->
 
 $(".horizon-swiper > div:gt(0)").hide();
@@ -28,4 +29,4 @@ $('.horizon-swiper > div:first')
 .fadeIn(6000)
 .end()
 .appendTo('.horizon-swiper');
-},  7000);
+},  5000);
