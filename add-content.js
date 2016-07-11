@@ -24,7 +24,7 @@ $(".horizon-swiper > div:gt(0)").hide();
 
 setInterval(function() {
 $('.horizon-swiper > div:first')
-.slideToggle(2000)
+.slideToggle(3000)
 .next()
 .fadeIn(6000)
 .end()
