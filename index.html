@@ -70,6 +70,23 @@
       });
 
 
+        // scroll-down effect
+      $(document).ready(function(){
+	$('a[href^="#row2"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+
+
     </script>
 
 </head>
@@ -114,8 +131,8 @@
    <!-- scroll down -->
    <div class="scroll-down">
     <a href="#row2"><i class="fa fa-angle-double-down"></i></a>
-
    </div>
+
 
  </header>
 
