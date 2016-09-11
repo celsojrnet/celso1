@@ -217,7 +217,7 @@ a {
   /*-webkit-transition: all 1.5s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;*/
-	
+
 }
 
 /*-----------------------------*/
@@ -504,7 +504,7 @@ background-color: #94A2A2;
   margin-left: 45%;
   margin-top: 2%;
 	padding-bottom: 2%;
-  font-size: 12px;
+  font-size: 10px;
   font-family: 'MyWebFont', Avenir;
   color: rgb(150, 145, 145);
 }
